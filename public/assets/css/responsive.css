@@ -1,0 +1,197 @@
+/* large screens */
+@media (min-width: 1600px)
+{
+
+}
+
+
+@media (max-width: 1500px)
+{
+    .surveyForm .wrapper
+    {
+        padding-left: 90px;
+    }
+    .surveyForm_inner
+    {
+        padding: 40px 50px;
+        width: 85%;
+    }
+    .shape-X
+    {
+        display: none;
+    }
+}
+
+
+/* Desktops/Laptops */
+@media (max-width: 1200px)
+{
+    .mainHeading
+    {
+        font-size: 50px
+    }
+    .typingEffect
+    {
+        min-height: 50px;
+    }
+    .surveyForm_inner
+    {
+        width: 95%;
+        margin: 0;
+    }
+    .lap-none
+    {
+        display: none;
+    }
+    .lap-100
+    {
+        width: 100%;
+    }
+    .surveyForm .survey-inner
+    {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .thankyouInner
+    {
+        width: 65%;
+    }
+    .thankyouHeading
+    {
+        font-size: 50px;
+    }
+    
+}
+
+/* Laptops */
+@media (max-width: 1024px)
+{
+
+}
+
+/* Tablets */
+@media (max-width: 768px)
+{
+    .mainHeading
+    {
+        font-size: 30px;
+    }
+    .typingEffect
+    {
+        min-height: 35px;
+    }
+    .about_location
+    {
+        margin-top: 20px;
+    }
+    .surveyForm .survey-inner
+    {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .surveyForm_inner
+    {
+        width: 100%;
+    }
+    .ratingHeading
+    {
+        font-size: 12px;
+    }
+    .subHeading
+    {
+        font-size: 20px;
+    }
+    .inputLabel
+    {
+        font-size: 12px;
+    }
+    .surveyForm .wrapper
+    {
+        padding: 30px 45px;
+    }
+
+    .thankyouInner
+    {
+        width: 100%;
+    }
+    .thankyouHeading
+    {
+        font-size: 40px;
+    }
+}
+
+/* mobile */
+@media (max-width: 480px)
+{
+    .wrapper
+    {
+        padding: 15px 30px;
+    }
+    .surveyBtn
+    {
+        width: 100%;
+    }
+    .nav
+    {
+        margin-bottom: 25px;
+    }
+    .survey-inner
+    {
+        width: 100%;
+    }
+    .mainHeading
+    {
+        font-size: 17px;
+    }
+    .typing-cursor
+    {
+        width: 10px;
+    }
+    .typingEffect
+    {
+        min-height: 20px;
+    }
+    .pageList
+    {
+        margin-top: 20px;
+    }
+    .surveyForm .wrapper
+    {
+        padding: 20px 20px;
+    }
+    .ratingSingle-inner
+    {
+        margin-top: 10px;
+    }
+    .surveyForm_inner
+    {
+        padding: 15px 20px;
+    }
+    .ratingInner
+    {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .star-fill
+    {
+        padding: 0 6px;
+        font-size: 12px;
+    }
+    .surveyForm_inner span
+    {
+        font-size: 12px;
+    }
+    .subHeading
+    {
+        font-size: 18px;
+    }
+    #typewrite2
+    {
+        height: auto;
+    }
+    .thankyouHeading
+    {
+        font-size: 26px;
+    }
+
+}
